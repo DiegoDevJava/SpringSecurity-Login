@@ -39,6 +39,10 @@ public class Paciente extends Usuario implements Serializable {
 		builder.append(getNome());
 		builder.append(", ativo=");
 		builder.append(isAtivo());
+		builder.append(", tipoPermissao=");
+		builder.append(getTipoPermissao());
+		builder.append(", tipoUsuario=");
+		builder.append(getTipoUsuario());
 		builder.append("]");
 		return builder.toString();
 	}
