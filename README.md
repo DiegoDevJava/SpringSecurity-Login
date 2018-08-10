@@ -57,7 +57,7 @@ Segundo Larman (2007, p.160), o termo “Modelo de Domínio” “significa uma 
 <div>
   <img = src="https://user-images.githubusercontent.com/41651988/43963965-3179c4ae-9c92-11e8-8d82-5befdea22efa.png" alt="diagrama de classes"/>
 </div><br />
-<b>Realizar Login - Diagrama de classes de projeto</b>
+<b>Realizar Login - Diagrama de classes de projeto</b><br /><br />
 <div>
 <img src="https://user-images.githubusercontent.com/41651988/43964079-6fe956a0-9c92-11e8-93b4-f08f7ee1b84b.png" alt = "projeto cadastro categoria" />
 </div><br /><br />
