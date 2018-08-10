@@ -55,7 +55,7 @@
 Segundo Larman (2007, p.160), o termo “Modelo de Domínio” “significa uma representação de classes conceituais do mundo real, não de objetos de software. O termo não significa um conjunto de diagramas que descreve classes de software, a camada de domínio de uma arquitetura de software ou de objetos de software com responsabilidades”.
 </p><br />
 <div>
-  <img = src="" alt="diagrama de classes"/>
+  <img = src="https://user-images.githubusercontent.com/41651988/43963965-3179c4ae-9c92-11e8-8d82-5befdea22efa.png)" alt="diagrama de classes"/>
 </div><br />
 <b>Realizar Login - Diagrama de classes de projeto</b>
 <div>
