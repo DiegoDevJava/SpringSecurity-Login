@@ -12,7 +12,7 @@
   <li>Spring Boot
     <ul>
       <li>Versão: 2.0.4.RELEASE</li>
-      <li>Implementação: <a href="https://docs.spring.io/spring-boot/docs/2.0.4.RELEASE/reference/htmlsingle/">Documentação</a></li>
+      <li><a href="https://docs.spring.io/spring-boot/docs/2.0.4.RELEASE/reference/htmlsingle/">Documentação</a></li>
     </ul>
   </li>
   <li>Spring Web MVC
