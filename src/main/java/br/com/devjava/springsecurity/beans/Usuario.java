@@ -4,12 +4,17 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
+
+import br.com.devjava.springsecurity.enums.TipoPermissao;
+import br.com.devjava.springsecurity.enums.TipoUsuario;
 
 @Entity
 @Table(name = "usuario")
@@ -23,6 +28,8 @@ public class Usuario implements Serializable {
 	private String senha;
 	private String nome;
 	private boolean ativo;
+	private TipoPermissao tipoPermissao;
+	private TipoUsuario tipoUsuario;
 
 	public Usuario() {
 	}
@@ -65,12 +72,33 @@ public class Usuario implements Serializable {
 		this.nome = nome;
 	}
 
+	@Column(name = "ativo", nullable = false, columnDefinition="boolean default false")
 	public boolean isAtivo() {
 		return ativo;
 	}
 
 	public void setAtivo(boolean ativo) {
 		this.ativo = ativo;
+	}
+
+	@Enumerated(EnumType.STRING)
+	@Column(name = "tipo_permissao", nullable = false, length = 20)
+	public TipoPermissao getTipoPermissao() {
+		return tipoPermissao;
+	}
+
+	public void setTipoPermissao(TipoPermissao tipoPermissao) {
+		this.tipoPermissao = tipoPermissao;
+	}
+
+	@Enumerated(EnumType.STRING)
+	@Column(name = "tipo_usuario", nullable = false, length = 20)
+	public TipoUsuario getTipoUsuario() {
+		return tipoUsuario;
+	}
+
+	public void setTipoUsuario(TipoUsuario tipoUsuario) {
+		this.tipoUsuario = tipoUsuario;
 	}
 
 	@Override
@@ -111,6 +139,10 @@ public class Usuario implements Serializable {
 		builder.append(nome);
 		builder.append(", ativo=");
 		builder.append(ativo);
+		builder.append(", tipoPermissao=");
+		builder.append(tipoPermissao);
+		builder.append(", tipoUsuario=");
+		builder.append(tipoUsuario);
 		builder.append("]");
 		return builder.toString();
 	}
