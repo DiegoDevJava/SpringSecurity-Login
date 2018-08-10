@@ -61,5 +61,5 @@ Segundo Larman (2007, p.160), o termo “Modelo de Domínio” “significa uma 
 <div>
 <img src="https://user-images.githubusercontent.com/41651988/43964079-6fe956a0-9c92-11e8-93b4-f08f7ee1b84b.png" alt = "projeto cadastro categoria" />
 </div><br /><br />
- <b>Protótipo - Tela de Login</b><br />
+ <b>Protótipo - Tela de Login</b><br /><br />
   <img src="https://user-images.githubusercontent.com/41651988/43972566-26696dee-9cab-11e8-96f2-1305ef4facd7.png" alt="protótipo - tela login" /><br /><br />
